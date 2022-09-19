@@ -20,7 +20,7 @@
               required v-model="password" 
               class="mt-3"></v-text-field>
 
-              <v-btn color="#90EE90" class="primary" @click="Login">
+              <v-btn color="#9B59B6" class="primary" @click="Login">
                     <button type="submit" class="btn btn-primary">Login</button>
               </v-btn>
   

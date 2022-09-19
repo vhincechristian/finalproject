@@ -28,7 +28,7 @@
               required v-model="password" 
               class="mt-3"></v-text-field>
 
-              <v-btn color="#90EE90" class="primary" @click="Register">
+              <v-btn color="#9B59B6" class="primary" @click="Register">
                     <button type="submit" class="btn btn-primary">Register</button>
               </v-btn>
   </v-card>
