@@ -1,5 +1,4 @@
 <template>
-
 <div v-if="user.loggedIn">
     <v-row no-gutters style="padding: 2rem; ">
       <v-col cols="12" sm="4" style="margin-top: 1rem;">
@@ -63,7 +62,7 @@
     </v-col>
      </v-row>
 </div>
-  </template>
+</template>
   
   <script>
       import { useStore } from "vuex";

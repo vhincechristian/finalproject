@@ -13,7 +13,7 @@
 
 <style lang="css">
    main {
-      background-image: url('./assets/simple-bg.jpg');
+      background-image: url('./assets/bg.jpg');
       background-size: cover;
    }
    </style>
