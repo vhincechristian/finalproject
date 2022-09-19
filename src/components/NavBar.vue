@@ -27,7 +27,6 @@
       <v-list-item v-for="item in items" :key="item.title" router :to="item.path" :prepend-icon="item.icon">
         <v-list-item-title>{{ item.title }}</v-list-item-title>
       </v-list-item>
-
     </v-navigation-drawer>
   </nav>
 </template>
