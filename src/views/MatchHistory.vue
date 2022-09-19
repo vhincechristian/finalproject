@@ -10,7 +10,7 @@
 
         </v-card>
         <v-card class="mx-auto w-50">
-        <v-card-title>History</v-card-title>
+        <v-card-title>Records</v-card-title>
             <div v-if="currentHistory">
                 <MatchDetails :history="currentHistory" @refreshList="refreshList" />
             </div>

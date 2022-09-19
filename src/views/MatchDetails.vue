@@ -32,8 +32,7 @@
                     <div class="text-overline mb-1">
                         YOU ARE NOT LOGGED IN!
                     </div>
-                    <div class="text-caption mb-3">Please login if you already have an account, otherwise create one
-                        now.</div>
+                    <div class="text-caption mb-3">Please Login if You Already have an Account, or Create a New Account</div>
                 </div>
             </v-card-item>
         </v-card>
@@ -72,7 +71,7 @@ export default {
             if (this.admin) {
                 DataService.update(this.currentHisto.userID, this.currentHisto.key, data)
                     .then(() => {
-                        this.message = "The History was updated successfully!";
+                        this.message = "The Record Was Updated Successfully!";
                     })
                     .catch((e) => {
                         console.log(e);
@@ -80,7 +79,7 @@ export default {
             } else {
                 DataService.update("0", this.currentHisto.key, data)
                     .then(() => {
-                        this.message = "The History was updated successfully!";
+                        this.message = "The Record Was Updated Successfully!";
                     })
                     .catch((e) => {
                         console.log(e);

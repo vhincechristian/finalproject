@@ -1,36 +1,66 @@
 <template>
-    <v-card
-      class="mx-auto"
-      max-width="344">
+    <v-row no-gutters style="padding: 2rem; ">
 
-    <v-img alignment="center" max-width="554"
-    src="https://static.vecteezy.com/system/resources/previews/000/491/709/original/calculator-icon-design-vector.jpg"></v-img>
-  
-      <v-card-title> Calculator </v-card-title>
-      
-      <v-card>
-        A tool that performs mathematical operations on numbers is called a simple calculator. 
-        Simple calculators can only perform the mathematical operations of addition, subtraction, multiplication, and division.</v-card>
-   
-    <v-img
-    alignment="center" max-width="554"
-    src="https://clipground.com/images/vowel-clipart-2.jpg"></v-img>
-  
-      <v-card-title> String Manipulator</v-card-title>
-      
-      <v-card>
-        In its simplest form, managing and analyzing strings is referred to as string manipulation. To use and modify its data, 
-        it entails a number of actions including the alteration and parsing of strings.</v-card>
+      <v-col cols="12" sm="4" style="margin-top: 1rem;">
+      <v-card  max-width="350">
+        <router-link to="/basicMath">
+          <v-img max-width="350" height="300" src="https://static.vecteezy.com/system/resources/previews/000/491/709/original/calculator-icon-design-vector.jpg"></v-img>
+        </router-link>
+        <v-card-title>Calculator</v-card-title>
+        <v-card-text class="text--primary">
+          <div> A tool that performs mathematical operations on numbers.</div>
+        </v-card-text>
+      </v-card>
+    </v-col>
 
-    <v-img alignment="center" max-width="554"
-    src="https://cdn3.iconfinder.com/data/icons/brain-games/1042/Quiz-Games.png"></v-img>
-  
-      <v-card-title> Quiz App </v-card-title>
-      
-      <v-card>
-        The Quiz App is a type of game or mind sport in which participants try to accurately answer inquiries about 
-        a particular or range of topics.</v-card>
-     </v-card>
+    <v-col cols="12" sm="4" style="margin-top: 1rem;">
+      <v-card  max-width="350">
+        <router-link to="/stringApp">
+          <v-img max-width="350" height="300" src="https://clipground.com/images/vowel-clipart-2.jpg"></v-img>
+        </router-link>
+        <v-card-title>String Manipulation</v-card-title>
+        <v-card-text class="text--primary">
+          <div>  The Process of Handling and Analyzing Strings.</div>
+        </v-card-text>
+      </v-card>
+    </v-col>
+
+    <v-col cols="12" sm="4" style="margin-top: 1rem;">
+      <v-card  max-width="350">
+        <router-link to="/aboutvuetify">
+          <v-img max-width="350" height="300" src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"></v-img>
+        </router-link>
+        <v-card-title>About Vuetify</v-card-title>
+        <v-card-text class="text--primary">
+          <div> Shows the Information About Vuetify.</div>
+        </v-card-text>
+      </v-card>
+    </v-col>
+
+    <v-col cols="12" sm="4" style="margin-top: 1rem;">
+      <v-card  max-width="350">
+        <router-link to="/aboutMe">
+          <v-img max-width="350" height="300" src="http://cdn.onlinewebfonts.com/svg/img_314945.png"></v-img>
+        </router-link>
+        <v-card-title>About Me</v-card-title>
+        <v-card-text class="text--primary">
+          <div> Contains some Information About Me.</div>
+        </v-card-text>
+      </v-card>
+    </v-col>
+
+    <v-col cols="12" sm="4" style="margin-top: 1rem;">
+      <v-card  max-width="350">
+        <router-link to="/QuizView">
+          <v-img max-width="350" height="300" src="https://cdn3.iconfinder.com/data/icons/brain-games/1042/Quiz-Games.png"></v-img>
+        </router-link>
+        <v-card-title>Quiz App</v-card-title>
+        <v-card-text class="text--primary">
+          <div> Quick and Informal assessment of Knowledge</div>
+        </v-card-text>
+      </v-card>
+    </v-col>
+     </v-row>
   </template>
   
   <script>
