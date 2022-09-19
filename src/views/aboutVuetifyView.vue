@@ -1,6 +1,6 @@
 <template>
     <v-card class="ma-5 mx-auto" max-width="650">
-      <v-card color="#87CEEB">
+      <v-card color="#7CB342">
       <v-card-title>About Vuetify</v-card-title>
 
         <v-img src ="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png" aspect-ratio="3"></v-img>

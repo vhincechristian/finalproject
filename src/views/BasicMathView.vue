@@ -1,7 +1,7 @@
 <template>
   <v-card
           class="ma-5 mx-auto mx-auto text-black" max-width="600">
-          <v-card color="#87CEEB">
+          <v-card color="#7CB342">
       <v-card-title> Calculator</v-card-title>
 
           <v-text-field label="First Input" v-model.number="nu1"></v-text-field>

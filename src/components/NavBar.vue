@@ -48,7 +48,7 @@ export default {
         { title: 'Calculator', icon: 'mdi-calculator-variant', path: '/basicMath' },
         { title: 'String Manipulation', icon: 'mdi-arrow-decision', path: '/stringApp' },
         { title: 'About Me', icon: 'mdi-account-box', path: '/aboutMe' },
-        { title: 'About Vuetify', icon: 'mdi-chevron-down-circle', path: '/aboutvuetify' },
+        { title: 'About Vuetify', icon: 'mdi-chevron-down-circle', path: '/aboutVuetifyView' },
         { title: 'Quiz App', icon: 'mdi-atom', path: '/QuizView' },
         { title: 'Quiz Records', icon: 'mdi-history', path: '/MatchHistory' },
       ], rail: false,

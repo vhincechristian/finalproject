@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import BasicMathView from '../views/BasicMathView.vue'
 import StringAppView from '../views/StringAppView.vue'
-import aboutvuetifyView from '../views/aboutvuetifyView.vue'
+import aboutVuetifyView from '../views/aboutVuetifyView.vue'
 import AboutMeView from '../views/AboutMeView.vue'
 import HomeView from '../views/HomeView.vue'
 import QuizView from '../views/QuizView.vue'
@@ -40,9 +40,9 @@ const router = createRouter({
         },
 
         {
-            path: '/aboutvuetify',
+            path: '/aboutVuetifyView',
             name: 'aboutvuetify',
-            component: aboutvuetifyView,
+            component: aboutVuetifyView,
 
         },
 

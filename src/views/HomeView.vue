@@ -2,9 +2,9 @@
 <div v-if="user.loggedIn">
     <v-row no-gutters style="padding: 2rem; ">
       <v-col cols="12" sm="4" style="margin-top: 1rem;">
-      <v-card  max-width="350">
+      <v-card  max-width="350" color="#7CB342">
         <router-link to="/basicMath">
-          <v-img max-width="350" height="300" src="https://static.vecteezy.com/system/resources/previews/000/491/709/original/calculator-icon-design-vector.jpg"></v-img>
+          <v-img max-width="350" height="300" src="https://icons.iconarchive.com/icons/blackvariant/button-ui-system-apps/512/Calculator-icon.png"></v-img>
         </router-link>
         <v-card-title>Calculator</v-card-title>
         <v-card-text class="text--primary">
@@ -14,9 +14,9 @@
     </v-col>
 
     <v-col cols="12" sm="4" style="margin-top: 1rem;">
-      <v-card  max-width="350">
+      <v-card  max-width="350" color="#7CB342">
         <router-link to="/stringApp">
-          <v-img max-width="350" height="300" src="https://clipground.com/images/vowel-clipart-2.jpg"></v-img>
+          <v-img max-width="350" height="300" src="https://www.shareicon.net/data/512x512/2015/09/20/643705_alphabet_512x512.png"></v-img>
         </router-link>
         <v-card-title>String Manipulation</v-card-title>
         <v-card-text class="text--primary">
@@ -26,7 +26,7 @@
     </v-col>
 
     <v-col cols="12" sm="4" style="margin-top: 1rem;">
-      <v-card  max-width="350">
+      <v-card  max-width="350" color="#7CB342">
         <router-link to="/aboutvuetify">
           <v-img max-width="350" height="300" src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"></v-img>
         </router-link>
@@ -38,7 +38,7 @@
     </v-col>
 
     <v-col cols="12" sm="4" style="margin-top: 1rem;">
-      <v-card  max-width="350">
+      <v-card  max-width="350" color="#7CB342">
         <router-link to="/aboutMe">
           <v-img max-width="350" height="300" src="http://cdn.onlinewebfonts.com/svg/img_314945.png"></v-img>
         </router-link>
@@ -50,7 +50,7 @@
     </v-col>
 
     <v-col cols="12" sm="4" style="margin-top: 1rem;">
-      <v-card  max-width="350">
+      <v-card  max-width="350" color="#7CB342">
         <router-link to="/QuizView">
           <v-img max-width="350" height="300" src="https://cdn3.iconfinder.com/data/icons/brain-games/1042/Quiz-Games.png"></v-img>
         </router-link>

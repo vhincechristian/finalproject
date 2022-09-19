@@ -3,7 +3,7 @@
      <v-container fluid>
       <v-card
        class="ma-5 mx-auto" max-width="1000">
-       <v-card color="#87CEEB">
+       <v-card color="#7CB342">
      
      <v-card-title>String Manipulation</v-card-title>
      <v-text-field label="Enter a String" v-model="vowel" @change='answer'></v-text-field>

@@ -2,7 +2,7 @@
   
     <v-card
         class="ma-5 mx-auto" max-width="544">
-        <v-card color="#8E44AD">
+        <v-card color="#7CB342">
   
         <v-card-title> About Me </v-card-title>
         <v-img src="./public/avatar-1.jpg" aspect-ratio="2">

@@ -1,6 +1,6 @@
 <template>
     <v-card class="ma-5 mx-auto" max-width="544">
-        <v-card color="#87CEEB">
+        <v-card color="#7CB342">
             
           <v-card-title>Quiz App</v-card-title>
           <quizapp @quiz-completed="handleQuizCompleted" :key="quizKey" />
