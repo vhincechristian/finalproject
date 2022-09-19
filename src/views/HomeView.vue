@@ -1,6 +1,7 @@
 <template>
-    <v-row no-gutters style="padding: 2rem; ">
 
+<div v-if="user.loggedIn">
+    <v-row no-gutters style="padding: 2rem; ">
       <v-col cols="12" sm="4" style="margin-top: 1rem;">
       <v-card  max-width="350">
         <router-link to="/basicMath">
@@ -61,12 +62,73 @@
       </v-card>
     </v-col>
      </v-row>
+</div>
   </template>
   
   <script>
-      export default {
-        data: () => ({
-          show: false,
-        }),
-      }
+      import { useStore } from "vuex";
+import { useRouter } from "vue-router";
+import { computed } from "vue";
+import { auth } from '../firebase'
+
+export default {
+  data: () => ({
+    show: true,
+    overlay: true,
+    items: [
+      {
+        title: 'Calculator',
+        path: '/basicMath',
+      },
+
+      {
+        title: 'String Manipulator',
+        path: '/stringApp',
+
+      },
+
+      {
+        title: 'About Vuetify',
+        path: '/aboutvuetify',
+
+      },
+
+      {
+        title: 'Quiz App',
+        path: '/QuizView',
+
+      },
+
+      {
+        title: 'About Me',
+        path: '/aboutMe',
+
+      },
+
+     
+    ],
+    transparent: 'rgba(255, 255, 255, 0)',
+  }),
+
+  setup() {
+    const store = useStore()
+    const router = useRouter()
+    auth.onAuthStateChanged(user => {
+      store.dispatch("fetchUser", user);
+    });
+    const user = computed(() => {
+      return store.getters.user;
+    });
+    const signOut = async () => {
+      await store.dispatch('logOut')
+      router.push('/login')
+    }
+    return { user, signOut, Image }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.overlay = false
+    }, 1300)
+  }
+}
     </script>

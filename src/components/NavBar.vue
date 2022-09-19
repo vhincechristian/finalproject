@@ -23,11 +23,13 @@
       </div>
     </v-toolbar>
 
+    <div v-if="user.loggedIn">
     <v-navigation-drawer app expand-on-hover rail="true">
       <v-list-item v-for="item in items" :key="item.title" router :to="item.path" :prepend-icon="item.icon">
         <v-list-item-title>{{ item.title }}</v-list-item-title>
       </v-list-item>
     </v-navigation-drawer>
+    </div>
   </nav>
 </template>
 
