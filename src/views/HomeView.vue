@@ -27,7 +27,7 @@
 
     <v-col cols="12" sm="4" style="margin-top: 1rem;">
       <v-card  max-width="350" color="#7CB342">
-        <router-link to="/aboutvuetify">
+        <router-link to="/aboutvuetifyView">
           <v-img max-width="350" height="300" src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-300.png"></v-img>
         </router-link>
         <v-card-title>About Vuetify</v-card-title>
