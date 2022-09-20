@@ -1,5 +1,5 @@
 <template>
-    <v-card class="ma-5 mx-auto mx-auto text-black" max-width="600">
+    <v-card color="#7CB342" class="ma-5 mx-auto mx-auto text-black" max-width="600">
            <v-card-title>Sign In</v-card-title>
             
               <div v-if="error" class="alert alert-danger">{{error}}</div>
@@ -20,7 +20,7 @@
               required v-model="password" 
               class="mt-3"></v-text-field>
 
-              <v-btn color="#9B59B6" class="primary" @click="Login">
+              <v-btn block color="#FFFF8F" class="primary" @click="Login">
                     <button type="submit" class="btn btn-primary">Login</button>
               </v-btn>
   

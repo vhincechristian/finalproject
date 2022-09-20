@@ -1,7 +1,7 @@
 <template>
     <v-layout class="mt-5" row>
         <v-card class="mx-auto w-25">
-            <v-card-title>Match History</v-card-title>
+            <v-card-title>Quiz Record</v-card-title>
             <v-list :class="{ active: index == currentIndex }" v-for="(history, index) in List" :key="index">
                 <v-list-item @click="setActiveHistory(history, index)">{{ index + " : " +history.timeTaken
                 }}

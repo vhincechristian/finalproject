@@ -8,11 +8,11 @@
           <v-text-field label="Second Input" v-model.number="nu2"></v-text-field>
 
               <div class="ma-5 text-black">
-              <v-btn class="ma-1" color="#43A6C6" @click="addi">Addition</v-btn>
-              <v-btn class="ma-1" color="#43A6C6" @click="diff">Subtraction</v-btn>
-              <v-btn class="ma-1" color="#43A6C6" @click="quoti">Division</v-btn>
-              <v-btn class="ma-1" color="#43A6C6" @click="multi">Multiplication</v-btn>
-              <v-btn class="ma-1" color="#43A6C6" @click="aver">Average</v-btn><br>
+              <v-btn class="ma-1" color="#FFFF8F" @click="addi">Addition</v-btn>
+              <v-btn class="ma-1" color="#FFFF8F" @click="diff">Subtraction</v-btn>
+              <v-btn class="ma-1" color="#FFFF8F" @click="quoti">Division</v-btn>
+              <v-btn class="ma-1" color="#FFFF8F" @click="multi">Multiplication</v-btn>
+              <v-btn class="ma-1" color="#FFFF8F" @click="aver">Average</v-btn><br>
               </div>
                   <h3 class="ma-5">Total: {{result}}</h3> 
   </v-card>
