@@ -7,7 +7,6 @@
                 }}
                 </v-list-item>
             </v-list>
-
         </v-card>
         <v-card class="mx-auto w-50" color="#7CB342">
         <v-card-title>Records</v-card-title>
