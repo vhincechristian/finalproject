@@ -30,17 +30,17 @@
             </div>
     
            <div class="modal-footer">
-              <v-btn color="#43A6C6"
+              <v-btn  color="#FFFF8F"
                 id="play-again"
-                class="button-footer"
+                class="ma-1"
                 @click="$emit('reload')">
                 Play Again
               </v-btn>
               <br>
               
-              <v-btn color="#43A6C6"
+              <v-btn color="#FFFF8F"
                 id="close-button"
-                class="button-footer"
+                class="ma-1"
                 @click="$emit('close')">
                 Close
               </v-btn>

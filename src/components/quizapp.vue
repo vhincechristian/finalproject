@@ -311,8 +311,8 @@ button.rightAnswer {
   animation-timing-function: ease-in-out;
   color: black;
   background: linear-gradient(210deg,
-      rgba(1, 196, 89, 0.507),
-      rgba(2, 138, 56, 0.301));
+      rgba(255, 251, 0, 0.904),
+      rgba(176, 189, 3, 0.301));
 }
 
 button.wrongAnswer {
@@ -330,7 +330,7 @@ button.showRightAnswer {
   animation-timing-function: ease-in-out;
   color: black;
   background: linear-gradient(210deg,
-      rgba(0, 178, 72, 0.25),
-      rgba(0, 178, 72, 0.5));
+      rgba(255, 251, 0, 0.904),
+      rgba(176, 189, 3, 0.301));
 }
 </style>
