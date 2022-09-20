@@ -3,6 +3,7 @@
     <v-main>
        <Navbar/>
        <router-view></router-view>
+       <h1>Login Before to Access the Website</h1>
     </v-main>
    </v-app>
 </template>
