@@ -3,7 +3,7 @@
         <v-card class="mx-auto w-25" color="#7CB342">
             <v-card-title>Quiz Record</v-card-title>
             <v-list :class="{ active: index == currentIndex }" v-for="(history, index) in List" :key="index">
-                <v-list-item @click="setActiveHistory(history, index)">{{ index+1 + " : " +history.timeTaken
+                <v-list-item @click="setActiveHistory(history, index)">{{ index + " : " +history.timeTaken
                 }}
                 </v-list-item>
             </v-list>
