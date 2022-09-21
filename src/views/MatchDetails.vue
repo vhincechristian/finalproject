@@ -77,7 +77,7 @@ export default {
                         console.log(e);
                     });
             } else {
-                DataService.update("1", this.currentHisto.key, data)
+                DataService.update("0", this.currentHisto.key, data)
                     .then(() => {
                         this.message = "The Record Was Updated Successfully!";
                     })
