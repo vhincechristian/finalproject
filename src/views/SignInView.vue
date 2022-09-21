@@ -1,5 +1,5 @@
 <template>
-    <v-card color="#7CB342" class="ma-5 mx-auto mx-auto text-black" max-width="600">
+    <v-card class="ma-5 mx-auto mx-auto text-black" max-width="600">
            <v-card-title>Sign In</v-card-title>
             
               <div v-if="error" class="alert alert-danger">{{error}}</div>

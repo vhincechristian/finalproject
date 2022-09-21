@@ -1,6 +1,6 @@
 <template>
     <v-layout class="mt-5" row>
-        <v-card class="mx-auto w-25" color="#7CB342">
+        <v-card class="mx-auto w-25">
             <v-card-title>Quiz Record</v-card-title>
             <v-list :class="{ active: index == currentIndex }" v-for="(history, index) in List" :key="index">
                 <v-list-item @click="setActiveHistory(history, index)">{{ index + " : " +history.timeTaken
@@ -8,7 +8,7 @@
                 </v-list-item>
             </v-list>
         </v-card>
-        <v-card class="mx-auto w-50" color="#7CB342">
+        <v-card class="mx-auto w-50">
         <v-card-title>Records</v-card-title>
             <div v-if="currentHistory">
                 <MatchDetails :history="currentHistory" @refreshList="refreshList" />
